@@ -7,6 +7,6 @@ license = "0BSD OR MIT OR Apache-2.0"
 repository = "https://git.exvacuum.dev/bevy_dither_post_process"
 
 [dependencies.bevy]
-version = "0.15"
+version = "0.16"
 default-features = false
-features = ["bevy_render", "bevy_core_pipeline", "bevy_pbr", "png"]
+features = ["bevy_render", "bevy_core_pipeline", "bevy_pbr", "png", "bevy_log"]

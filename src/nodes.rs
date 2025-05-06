@@ -2,10 +2,15 @@ use bevy::{
     ecs::query::QueryItem,
     prelude::*,
     render::{
-        render_asset::RenderAssets, render_graph::{NodeRunError, RenderGraphContext, RenderLabel, ViewNode}, render_resource::{
+        render_asset::RenderAssets,
+        render_graph::{NodeRunError, RenderGraphContext, RenderLabel, ViewNode},
+        render_resource::{
             BindGroupEntries, Operations, PipelineCache, RenderPassColorAttachment,
             RenderPassDescriptor,
-        }, renderer::RenderContext, texture::GpuImage, view::ViewTarget
+        },
+        renderer::RenderContext,
+        texture::GpuImage,
+        view::ViewTarget,
     },
 };
 
